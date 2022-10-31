@@ -1,0 +1,159 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="225813916" file="C:\Users\Skander\MATLAB\Projects\TSAD2 - Copie\TSADPlatform.prj" location="C:\Users\Skander\MATLAB\Projects\TSAD2 - Copie" name="TSADPlatform" target="target.mlapps" target-name="Package App">
+    <param.appname>TSADPlatform</param.appname>
+    <param.authnamewatermark>Skander Ayoub, Adrian Wolf</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Anomaly detection training and evaluation app</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Skander\AppData\Local\Temp\tp69a6def6_e45e_436c_8437_e247e48d4cba.png</param.screenshot>
+    <param.version>1.1</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>4481d3b3-bdfe-49f7-9651-6a6aa564aa77</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\TSADPlatform.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\AddHyperparameterPopup.mlapp</file>
+      <file>${PROJECT_ROOT}\ModelSelection_CML.mlapp</file>
+      <file>${PROJECT_ROOT}\ModelSelection_DNN.mlapp</file>
+      <file>${PROJECT_ROOT}\ModelSelection_S.mlapp</file>
+      <file>${PROJECT_ROOT}\OptimizeParameters.mlapp</file>
+      <file>${PROJECT_ROOT}\ThresholdSelection.mlapp</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\compute_scores.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\count_above.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\deltas.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\find_anomalies.mlx</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\find_sequences.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\find_threshold.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\find_window_sequences.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\get_max_errors.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\merge_sequences.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\overlap_seg.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\prune_anomalies.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\other\Orion\z_cost.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\auto_run\autoOptimization.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\auto_run\evaluateAllForDataset.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\auto_run\evaluateAllModels.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\config\config_all.json</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\config\config_for_testing.json</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\convertYForTesting.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\loadCustomDataset.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\prepareDataTest_CML.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\prepareDataTest_DNN.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\prepareDataTest_S.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\prepareDataTrain_CML.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\prepareDataTrain_DNN.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\prepareDataTrain_S.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\preprocessData.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\rescaleData.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\splitDataTest.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\splitDataTrain.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\splitTestVal.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\data\standardizeData.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\detection\calcDynamicThresholdPrediction.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\detection\calcScores.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\detection\calcStaticThresholdPrediction.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\detection\detectAndEvaluateWith.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\detection\detectWithCML.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\detection\detectWithDNN.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\detection\detectWithS.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\detection\reshapeReconstructivePrediction.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\dynamic_switch\calcAverageScores.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\dynamic_switch\diagnosticFeatures.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\dynamic_switch\evaluateDynamicSwitch.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\dynamic_switch\findBestModels.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\dynamic_switch\fitSwitchClassifier.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\dynamic_switch\getDataTrain_Switch.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\dynamic_switch\prepareDatasetForDynamicSwitch.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\dynamic_switch\trainDynamicSwitchClassifier.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\classic_machine_learning\run_MERLIN.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\classic_machine_learning\trainCML.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\classic_machine_learning\trainModels_CML.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\getLayers.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\getOptions.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\getOptionsForParallel.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\preparePlots.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\trainDNN.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\trainDNN_Parallel.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\trainModels_DNN_Consecutive.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\trainModels_DNN_Parallel.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\deep_neural_networks\updatePlots.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\statistical\trainModels_S.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\models\statistical\trainS.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\optimization\adaptModelOptions.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\optimization\fitAndEvaluateModel_CML.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\optimization\fitAndEvaluateModel_DNN.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\optimization\fitAndEvaluateModel_S.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\optimization\getOptimizationVariables.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\optimization\opt_fun.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\optimization\optimizeModel.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\thresholds\computeBestFscoreThreshold.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\thresholds\getStaticThreshold_CML.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\thresholds\getStaticThreshold_DNN.m</file>
+      <file>C:\Users\Skander\MATLAB\Projects\TSAD_ADRIAN\src\thresholds\getStaticThreshold_S.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Skander\MATLAB\Projects" name="TSAD2 - Copie" optional="false">C:\Users\Skander\MATLAB\Projects\TSAD2 - Copie</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
