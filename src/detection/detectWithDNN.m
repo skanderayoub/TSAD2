@@ -1,6 +1,7 @@
 function [anomalyScores, YTest, labels, compTime] = detectWithDNN(options, Mdl, XTest, YTest, labels, getCompTime)
 if nargin < 6
     compTime = NaN;
+    getCompTime = false;
 end
 switch options.model
     case 'Your model'
